@@ -65,7 +65,8 @@ def create_poetry_app
       puts "#"
     end
     puts "\nThe previous line, for context:"
-    display_text_with_line_breaks(user_input, 40)
+      #the bot misinterpreted my directions here, but we'll keep the line break and adjust it for aesthetics
+    display_text_with_line_breaks(user_input, 90)
   end
 
   # Write content to file
